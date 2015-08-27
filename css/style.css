@@ -3,4 +3,212 @@ html {
 
 }
 
-body {}
+body 
+{
+    
+}
+
+
+
+#topbar
+{
+    background-image: url(../pics/kantradbat.png);
+    background-repeat: no-repeat;
+    background-position: 0px 40px;
+    height: 250px;
+    background-color:#3e9bb3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+   color: white;
+   font-size: 12px;
+   font-style: italic;     
+   text-align: end;
+     
+}
+
+
+#container{
+    width: 640px;
+    background: #bdc4c6;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+
+#menu, ul
+{
+    margin-top: -43.5px;
+    margin-left: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    
+    position: relative;
+    float: left;
+    text-transform: capitalize;
+}
+
+a:link, a:visited {
+
+    display: block;
+    width: auto;
+    color: #FFFFFF;
+    background-color: lightblue;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+a:hover, a:active 
+{
+    background-color: #6e6e59;
+}
+
+
+
+
+
+
+
+
+#maincontent
+{
+    width: 50%;   
+    background-color: #3e9bb3;
+    display: inline;   
+    
+}
+
+#maincontent p
+{
+    margin-bottom: 100px;
+   margin-left: 10px;
+   color: #6e6e59;
+}
+
+#maincontent  h1
+{
+    color: #6e6e59;
+    margin-top: 0px;
+   margin-left: 5px;
+   font-size: 18px;
+}
+
+
+
+
+
+ #maincontent img 
+ {
+        float:left;
+        padding-right: 12px;
+        margin-left: 15px;              
+    }
+
+
+
+
+
+
+
+
+
+p
+{
+    line-height: 150%;
+
+}
+
+#subcontent {
+    width 50%; 
+    padding-left: 10px;
+    float: left;
+    position: static;
+    display: inline-block;
+
+}
+
+#subcontent p
+{
+    color: #6e6e59;
+    padding-right: 40px;
+    margin-left: auto;
+   
+}
+
+#subcontent  h1
+{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: auto;
+    color: #6e6e59;
+}
+
+#subcontent  h2
+{
+    font-size: 14px;
+    margin-left: auto;
+    color: #6e6e59;
+  
+}
+
+#subcontent li a
+{
+   
+    text-transform: lowercase;
+    color: #584d4d;
+    
+    
+}
+
+#subcontent ul
+{
+    margin: -5px;
+}
+
+#content
+{
+    -moz-column-count: 2;
+
+-webkit-column-count: 2;
+
+column-count: 2;
+
+
+}
+
+
+
+
+#menu > a
+{
+    display: none;
+}
+
+
+
+
+#bottomcontent
+{   clear:both; 
+    color: #6e6e59;
+    font-size: 10px;
+    font-style: italic;
+    
+   
+}
+
